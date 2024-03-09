@@ -41,6 +41,32 @@
   color: #888;
 }
 body{
-  background-color: rgb(6, 129, 170);
+  background-color: rgb(218, 220, 223); 
   text-align: center;
+}
+.arrows{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrows button{
+  width: 150px;
+  height: 60px;
+  padding: 20px;
+  margin-left: 50px;
+  background-color: rgb(178, 177, 223);
+  font-size: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.Container{
+  background-color: white;
+  color: black;
+  padding: 50px;
+  border-radius: 20px;
+  padding-right: 100px;
+  box-shadow: 10px 10px 20px gray;
 }

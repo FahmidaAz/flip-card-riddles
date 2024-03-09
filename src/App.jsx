@@ -34,19 +34,20 @@ function App() {
   return (
    
     <>
-     <div>
+     <div className="Container">
       <h1>Flip Riddles Fun</h1>
-      <h3>Guess the Answer</h3>
-      <h4>Riddle: {count}</h4>
+      <h2>Guess the Answer</h2>
+      <h3>Riddle: {count}</h3>
       <br />
       <br />
     <FlipCard Que={riddles[count].Que} Ans={riddles[count].Ans}/>
-     </div>
+    
      <br />
      <br />
      <div className="arrows">
                 <button onClick={handleDecrease}>🔙</button>
                 <button onClick={handleIncrease}>🔜</button>
+            </div>
             </div>
     </>
   )
