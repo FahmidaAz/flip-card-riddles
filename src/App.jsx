@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function App() {
   const riddles=[
-    {Que:'Are you ready? Lets get started',Ans:'Press Soon key'},
+    {Que:'Are you ready? 💁🏽‍♀️ Lets get started',Ans:'Press Soon key 🔜'},
    {Que:'I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?', Ans:"Echo!" },
   {Que:'What has cities but no houses, forests but no trees, and rivers but no water?', Ans:'A Map'},
   {Que:'If a plane crashes on the border between the United States and Canada, where do they bury the survivors?', Ans:'Survivors aren’t buried.'},
@@ -17,6 +17,7 @@ function App() {
   {Que:'I travel the world, and I am drunk constantly. Who am I?', Ans:'Water.'},
   {Que:'Some months have 31 days, others have 30 days, but how many have 28 days?', Ans:'All 12'},
   {Que:'A boy and an engineer were fishing. The boy is the son of the engineer but the engineer is not the father of the boy. Then who is the engineer?', Ans:'The engineer is the boy’s mother. '},
+  {Que:'🎉Completed!🎉 How many did you score? ', Ans:'Well Done!!!👏👏'},
 
 ]
   const [count, setCount] = useState(0)
