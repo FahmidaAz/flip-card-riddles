@@ -41,7 +41,7 @@
   color: #888;
 }
 body{
-  background-color: rgb(218, 220, 223); 
+  background-color: rgba(8, 0, 0, 0.634); 
   text-align: center;
 }
 .arrows{
@@ -56,17 +56,43 @@ body{
   height: 60px;
   padding: 20px;
   margin-left: 50px;
-  background-color: rgb(178, 177, 223);
+  background-color: rgba(62, 6, 175, 0.573);
   font-size: 30px;
   display:flex;
   align-items: center;
   justify-content: center;
 }
 .Container{
-  background-color: white;
-  color: black;
+  background-color:rgb(0, 0, 0);
+  color: white;
   padding: 50px;
   border-radius: 20px;
   padding-right: 100px;
-  box-shadow: 10px 10px 20px gray;
+  box-shadow: 10px 10px 20px rgb(69, 67, 67);
+ 
+}
+.answer input{
+  background-color: rgb(229, 225, 222);
+  color:black;
+  margin-left: 20px;
+  width: 300px;
+  font-size: 20px;
+  border: 0ch;
+  border-radius: 5px;
+}
+.answer{
+  display: flex;
+  justify-content: center;
+}
+.answer button{
+  background-color: rgb(33, 38, 183);
+  margin-left: 20px;
+  width: 150px;
+  height: 60px;
+}
+.score{
+  display: flex;
+}
+.score h4{
+  margin: 70px;
 }

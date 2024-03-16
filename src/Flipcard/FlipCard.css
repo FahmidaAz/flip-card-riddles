@@ -6,7 +6,8 @@
   margin: 20px;
  align-items: center;
  justify-content: center;
- padding: 20px;
+ padding-left: 50px;
+ margin-bottom: 50px;
 }
 .insideCard{
   position: relative;
@@ -38,13 +39,13 @@
   padding: 30px;
 }
 .frontCard{
-    background-color: #154279;
+    /* background-color: #154279; */
    color: white;
    text-align: center;
    
 }
 .backCard{
-  background-color: #160251;
+  /* background-color: #160251; */
   color: white;
   text-align: center;
   transform: rotateY(180deg);
